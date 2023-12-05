@@ -1,0 +1,95 @@
+<link rel="stylesheet" href="./css/main.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+<div class="wrapper">
+    <aside>
+        <header>
+            <h1 class="logo">Guitar Shop</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a class="boton-menu boton-volver" href="./index.html"><i class="bi bi-backspace-fill"></i>Volver a la tienda</a></li>
+            
+                <li><a class="boton-menu boton-carrito active" href="./carrito.html"><i class="bi bi-cart-check-fill"></i>Carrito <span class="numerito">0</span> </a></li>
+
+            </ul>
+        </nav>
+
+        <footer>
+            <p class="text-footer">copy 2023 todos los derechos reservados</p>
+        </footer>
+
+    </aside>
+
+
+<main>
+    <h2 class="titulo-principal">Carrito</h2>
+    <div class="contenedor-carrito">
+        <p class="carrito vacio">Tu carrito esta vacio :c </p>
+        <div class="carrito-productos disabled">
+            <div class="carrito-producto">
+                <img class="carrito-producto-imagen" src="./img/acustica/istockphoto-1413100202-612x612.jpg" alt="">
+                <div class="carrito-producto-titulo">
+                    <small>Titulo</small>
+                    <h3>guitarrita 01</h3>
+
+                </div>
+                <div class="carrito-producto-cantidad">
+                    <small>cantidad</small>
+                    <p>1</p>
+                </div>
+                <div class="carrito-producto-precio">
+                    <small>precio</small>
+                    <small>$1000</small>
+                </div>
+                <div class="carrito-producto-subtotal">
+                    <small>subtototal</small>
+                    <p>$1000</p>
+                </div>
+                <button class="producto-eliminar"><i class="bi bi-trash3-fill"></i></button>
+
+            </div>
+
+            <div class="carrito-producto">
+                <img class="carrito-producto-imagen" src="./img/electroacustica/165569-800-auto.webp" alt="">
+                <div class="carrito-producto-titulo">
+                    <small>Titulo</small>
+                    <h3>guitarrita 01</h3>
+
+                </div>
+                <div class="carrito-producto-cantidad">
+                    <small>cantidad</small>
+                    <p>1</p>
+                </div>
+                <div class="carrito-producto-precio">
+                    <small>precio</small>
+                    <small>$2000</small>
+                </div>
+                <div class="carrito-producto-subtotal">
+                    <small>subtototal</small>
+                    <p>$2000</p>
+                </div>
+                <button class="producto-eliminar"><i class="bi bi-trash3-fill"></i></button>
+
+            </div>
+        </div>
+        <div class="carrito-acciones disable">
+            <div class="carrito-acciones-izquierda">
+                <button class="carrito-acciones-vaciar">Vaciar carrito</button>
+
+            </div>
+            <div class="carrito-acciones-derecha">
+                <div class="carrito-acciones-total">
+                    <p id="total">Total:</p>
+                    <p>$3000</p>
+                </div>
+                <button class="carrito-acciones-comprar">Comprar ahora</button>
+
+            </div>
+        </div>
+    </div>
+
+</main>
+</div>
+<script src="./js/main.js"></script>
+<script src="./js/carrito.js"></script>
